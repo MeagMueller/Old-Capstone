@@ -4,9 +4,17 @@ const fetchCalls = {
     getAllPerformances() {
         return fetch(`${url}/performances`).then(response => response.json())
     },
+
+    getPerformancesWithId(id) {
+        return fetch(`${url}/performances/${id}`).then(response => response.json())
+    },
     
     getAllProps() {
         return fetch(`${url}/props`).then(response => response.json())
+    },
+
+    getPropsWithId(id) {
+        return fetch(`${url}/props/${id}`).then(response => response.json())
     },
 
     newPerformances() {
@@ -41,3 +49,5 @@ const fetchCalls = {
         }).then(response => response.json)
     }
 }
+
+export default fetchCalls
