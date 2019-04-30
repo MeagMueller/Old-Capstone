@@ -27,5 +27,17 @@ const fetchCalls = {
             },
             body: JSON.stringify()
         }).then(response => response.json())
+    },
+
+    deletePerformances() {
+        return fetch(`${url}/performances`, {
+            method: "DELETE"
+        }).then(response => response.json())
+    },
+
+    deleteProps() {
+        return fetch(`${url}/props`, {
+            method: "DELETE"
+        }).then(response => response.json)
     }
 }
