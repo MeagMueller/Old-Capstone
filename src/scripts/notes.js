@@ -66,6 +66,89 @@
 // Then the information should be removed and the display should reflect the change
     // GET and POST here
 
+// *****Issue 4(well, 8 technically but that's just because I had to split them up anyway): DELETE PERFORMANCE*****
 
+// Given a user wants to remove a performance/workshop/etc.
+// When a user clicks a “remove” affordance
+    // button
+// Then the user should be presented with a confirmation pop up
+    // again, alert? With buttons?
+// And should be able to confirm or deny the deletion
+    // so many buttons
 
+// Given a user confirms a delete
+// When the user is returned to the events screen
+    // routing back to page again
+// Then the information should be removed and the display should reflect the change
 
+// *****ISSUE 5: ADD PROP*****
+
+// Given the user wants to add a prop to the collection
+// When the user clicks an affordance labeled “props”
+    // I'm thinking I'll need a navbar
+// Then the user will be directed to “props”
+
+// Given the user wants to add a new prop
+// When the user clicks an affordance labeled “add new prop”
+// Then the user is provided a form with an input to add a new prop
+
+// Given the user has added the information for a new prop
+// When the user clicks an affordance labeled “add to collection”
+// Then the user should be redirected back to their props list
+// And the user’s list should be updated with the new prop
+    // All of the above will be the same process - make a function that builds all of them? 
+    // Props list - add an images ability? Stretch goal
+    // Props list - GET, PATCH, GET, POST
+
+// *****Issue 6: EDIT PROP*****
+
+// Given the user wants to edit the information for a prop
+// When the user clicks an affordance labeled “edit”
+// Then the user should be presented with a prefilled form
+// And once the information is altered, have to click an affordance to save changes
+
+// Given the user has clicked the affordance
+// When it has processed
+// Then the user is directed back to the list of props
+// And it has updated to reflect the changes
+
+    // Again, all same as above - these processes can be streamlined
+
+// *****Issue 7: DELETE PROP*****
+
+// Given the user wants to delete a prop
+// When the user clicks an affordance labeled “remove” or “delete”
+// Then the user should be presented with a confirmation pop up
+// And should be able to confirm or deny the deletion
+
+// Given a user confirms a delete
+// When the user is returned to the props screen
+// Then the information should be removed and the display should reflect the change
+
+    // ^^^^
+
+// *****Issue 8 (really 4 but y'knooooow): CALENDAR*****
+
+// Given the user wants to see his or her events in the calendar
+    // CALENDAR...that's going to be interesting. Will have to research this
+// When the user clicks an affordance labeled “calendar”
+    // again in the navbar
+// Then the user will be directed to a calendar view
+    // calendar page
+
+// Given the user wants a quick view of event information
+// When the user hovers over the link on the calendar
+    // ooooo...hover event
+// Then the user will see a quick view pop up
+    // not sure how to do this but if someone with access to Angelfire in 1999 could do it, so can I
+
+// Given the user wants to go to the event page
+// When the user clicks the affordance
+// Then the user will be directed to the event page
+    // More navbar
+
+    // Guess I'm making a navbar
+
+// STRETCH GOALS:
+
+// Profile page with access to all styles known and functionality to add a new style
