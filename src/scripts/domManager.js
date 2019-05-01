@@ -1,3 +1,5 @@
+import fetchCalls from "./apiManager"
+
 const domCreator = {
     
 }
