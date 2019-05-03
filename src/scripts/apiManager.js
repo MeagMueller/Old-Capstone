@@ -8,23 +8,11 @@ const fetchCalls = {
         return fetch(`${url}/performances`).then(response => response.json())
     },
 
-    // Fetch call specifically by ID
-
-    getPerformancesWithId(id) {
-        return fetch(`${url}/performances/${id}`).then(response => response.json())
-    },
-
-    // General fetch call
     
     getAllProps() {
         return fetch(`${url}/props`).then(response => response.json())
     },
 
-    // Fetch call specifically by ID
-
-    getPropsWithId(id) {
-        return fetch(`${url}/props/${id}`).then(response => response.json())
-    },
 
     // POST when new performance is added
 
